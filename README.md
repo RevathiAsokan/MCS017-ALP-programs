@@ -5,7 +5,7 @@
 
 About repository: MCA I sem, course code MCS017 - ALP lab
 
-    Includes 32 programs
+    Includes ALP programs
     Lab manual
 
 Built with: TASM
