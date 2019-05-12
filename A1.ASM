@@ -14,9 +14,9 @@ START:
     mov ds, ax
 
     mov al, a           ; al = a = 48
-    add al, b           ; al = al + b (48 + 56) = 9F
+    add al, b           ; al = al + b (48 + 56) = 9E
 
-    mov sum, al         ; sum = al = 9F
+    mov sum, al         ; sum = al = 9E
 
     mov ah, 4ch         ; program terminate function
     int 21h             ; call DOS service
@@ -24,4 +24,3 @@ START:
     CODE ends           ; end of segment
 
 end START               ; end of program
-                                       
